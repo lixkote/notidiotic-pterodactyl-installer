@@ -544,7 +544,7 @@ rocky | almalinux)
   [ "$OS_VER_MAJOR" == "9" ] && SUPPORTED=true
   ;;
 *)
-  SUPPORTED=false
+  SUPPORTED=true
   ;;
 esac
 
